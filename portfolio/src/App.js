@@ -1,17 +1,21 @@
 import logo from './logo.svg';
 import './App.scss';
 import Navbar from './Components/Navbar/Navbar';
+import Hero from './Components/Hero/Hero';
+import Parallax from './Components/Parallax/Parallax';
+import Services from './Components/Services/Services';
 
 function App() {
   return (
     <div className="App">
       <section id='Homepage'>
         <Navbar/>
+        <Hero/>
       </section>
-      <section>parallax</section>
-      <section id='Services'>Services</section>
-      <section>parallax</section>
-      <section id='Portfolio'>portfolio1</section>
+      <section id='Services'><Parallax type="services"/></section>
+      <section><Services/></section>
+      <section id='Portfolio'><Parallax type="portfolio"/></section>
+      <section>portfolio1</section>
       <section>portfolio2</section>
       <section>portfolio3</section>
       <section id='Contact'>contact</section>
