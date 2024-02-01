@@ -13,7 +13,7 @@ const Navbar = () => {
             transition={{duration:0.5}}
             >Abhishek</motion.span>
             <div className='social'>
-                <a href='#'><img src='/facebook.png' alt='/'/></a>
+                <a href='#'><img src='/github.png' alt='/'/></a>
                 <a href='#'><img src='/instagram.png' alt='/'/></a>
                 <a href='#'><img src='/codeforces.png' alt='/'/></a>
                 <a href='#'><img src='/linkedin.png' alt='/'/></a>

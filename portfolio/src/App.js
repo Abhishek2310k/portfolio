@@ -5,6 +5,7 @@ import Hero from './Components/Hero/Hero';
 import Parallax from './Components/Parallax/Parallax';
 import Services from './Components/Services/Services';
 import Portfolio from './Components/Portfolio/Portfolio';
+import Contact from './Components/Contact/Contact';
 
 function App() {
   return (
@@ -17,8 +18,8 @@ function App() {
       <section><Services/></section>
       <section id='Portfolio'><Parallax type="portfolio"/></section>
         <Portfolio/>
-      <section id='Contact'>contact</section>
-      <section id='About'>About</section>
+      <section id='Contact'><Contact/></section>
+      {/* <section id='About'>About</section> */}
     </div>
   );
 }
